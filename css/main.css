@@ -7,6 +7,10 @@ body {
 	color: #222;
 }
 
+.lead {
+	font-size: 21px;
+}
+
 /* navbar */
 .navbar-default {
 	background-color: #fff;
@@ -26,7 +30,6 @@ body {
 	color: #111;
 	letter-spacing: 3px;
 	padding-bottom: 10px;
-	text-align: left;
 }
 
 .navbar-brand:hover {
