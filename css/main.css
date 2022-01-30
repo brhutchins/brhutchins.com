@@ -1,0 +1,264 @@
+body {
+	padding: 0px 0px 100px 0px;
+	font-family: Lato, Verdana, sans-serif;
+	font-weight: lighter;
+	font-size: 16px;
+	text-align: justify;
+	color: #222;
+}
+
+/* navbar */
+.navbar-default {
+	background-color: #fff;
+	background-image: none;
+	opacity: 0.98;
+	border: none;
+	box-shadow: none;
+	padding-top: 20px;
+}
+
+/* title */
+.navbar-default .navbar-brand {
+	font-family: "EB Garamond", Garamond, serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: #111;
+	letter-spacing: 3px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.navbar-brand:hover {
+	background-color: transparent;
+	color: #111 !important;
+}
+
+/* link */
+a, a:active, a:focus {
+	outline: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family: "Crimson Text", serif;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 19px;
+	border-top: 2px solid transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #000;
+	background-color: transparent;
+	background-image: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-top: 2px solid #000;
+}
+
+img.bhLine {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: relative;
+	top: -15px;
+}
+
+h1 {
+	font-family: "Crimson Text", serif;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 40px;
+	padding: 10px 12px 10px 11px;
+	border: 3px solid #222222; /*#8F8389;*/
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 65px;
+	color: #222222; /*#8F8389;*/
+	vertical-align: baseline;
+}
+
+h2 {
+	font-family: "Crimson Text", serif;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 30px;
+	border-bottom: 1px dotted #999;
+	margin-top: 20px;
+	padding: 40px 8px 0px 8px;
+}
+
+.contentSection {
+	padding-bottom: 200px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #F5F5ED;
+	margin-bottom: 100px;
+}
+
+.contentSection:first-of-type {
+	padding-top: 40px;
+}
+
+.contentSection:before {
+	content: '';
+	display: block;
+	position: relative;
+	width: 0;
+	height: 100px;
+	margin-top: 0px;
+}
+
+.noBorder {
+	border: none;
+}
+
+div.separatedDiv {
+	padding: 4%;
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+}
+
+.inlineImage {
+	padding: 4%;
+	margin-top: 20px;
+	display: inline-block;
+	border-top: 1px dotted #999;
+	border-bottom: 1px dotted #999;
+}
+
+.paperBox {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.paperBox li cite {
+	font-weight: 300;
+}
+
+.paperBox .list-inline li {
+	display: inline;
+}
+
+.paperBox h3 {
+	font-size: 16px;
+	margin: none;
+	margin-bottom: 5px;
+	font-weight: normal;
+	text-align: left;
+	border-bottom: 2px solid #000;
+}
+
+.paperBox h4 {
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	display: inline;
+	padding: 2px 8px 2px 8px;
+}
+
+.paperBox h4 a {
+}
+
+.paperBox ul {
+	display: inline;
+	text-align: left;
+}
+
+.paperBoxOne {
+	
+}
+
+.paperAbstract {
+	margin-top: 10px;
+	padding: 4% 6%;
+	font-size: 14px;
+	font-weight: 300;
+	background-color: #fff;
+	border-top: 1px dotted #222;
+	border-bottom: 1px dotted #222;
+	text-align: justify;
+}
+
+.paperAbstract:before {
+	content: "ABSTRACT ";
+	display: inline;
+	font-weight: bold;
+}
+
+.minimalContent {
+	min-height: 550px;
+	padding: 100px 0px 0px 0px;
+	font-size: 18px;
+	text-align: left;
+}
+
+.minimalContentContent {
+	margin-top: 40px;
+}
+
+.minimalContentHeader {
+	margin-bottom: -80px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 460px) {
+	body {
+		font-weight: 300;
+	}
+	
+	#bodyContent {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.navbar-default .navbar-brand {
+		font-size: 10px;
+	}
+	
+	.navbar-default .navbar-nav > li > a {
+		border: none;
+		text-align: center;
+	}
+	
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus {
+		border: none;
+	}
+	
+	.contentSection {
+		padding-bottom: 100px;
+	}
+	
+	h1 {
+		font-size: 28px;
+		margin-bottom: 40px;
+	}
+	
+	h2 {
+		font-size: 25px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.paperBox .list-inline li {
+		display: block;
+		margin-bottom: 6px;
+	}
+	
+	.minimalContentHeader {
+		margin-bottom: -60px;
+	}
+	
+	.abstractToggle:after {
+		content: "[\2026]";
+		display: inline;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+}
